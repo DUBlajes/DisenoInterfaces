@@ -24,7 +24,7 @@ public class Ventana6VariosJPane extends JFrame {
 
 		// Creamos las etiquetas
 
-		etiquetaMensaje = new JLabel("Mesaje: ");
+		etiquetaMensaje = new JLabel("Mensaje: ");
 		etiquetaBienvenida=new JLabel ("Bienvenido: ");
 		// Creamos un bucle para los botones y el actionListener, asi como que al pulsar cambie el mensaje del boton
 		for (int i = 1; i <= 3; i++) {
