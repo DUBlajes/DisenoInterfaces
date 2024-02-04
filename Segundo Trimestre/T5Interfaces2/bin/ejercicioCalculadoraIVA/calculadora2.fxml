@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="ej2.Controller">
+
+<Label text="Importe" />
+
+<TextField fx:id="importeTextField" GridPane.columnIndex="1" />
+
+<Button onAction="#iva4" prefHeight="25.0" prefWidth="91.0" text="Iva 4%" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+<Button onAction="#iva10" prefHeight="25.0" prefWidth="91.0" text="Iva 10%" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+<Button onAction="#iva21" prefHeight="25.0" prefWidth="91.0" text="Iva 21%" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+
+<Button onAction="#limpiar" text="Limpiar" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+<Button onAction="#salir" prefHeight="25.0" prefWidth="60.0" text="Salir" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+<Label fx:id="resultadoLabel" text="Resultado: " GridPane.rowIndex="5" />
+<columnConstraints>
+<ColumnConstraints maxWidth="93.0" minWidth="67.0" prefWidth="93.0" />
+<ColumnConstraints maxWidth="143.0" minWidth="66.0" prefWidth="75.0" />
+<ColumnConstraints maxWidth="151.0" minWidth="10.0" prefWidth="142.0" />
+<ColumnConstraints />
+<ColumnConstraints />
+</columnConstraints>
+<rowConstraints>
+<RowConstraints />
+<RowConstraints />
+<RowConstraints />
+<RowConstraints />
+<RowConstraints />
+<RowConstraints minHeight="10.0" prefHeight="30.0" />
+</rowConstraints>
+</GridPane>
