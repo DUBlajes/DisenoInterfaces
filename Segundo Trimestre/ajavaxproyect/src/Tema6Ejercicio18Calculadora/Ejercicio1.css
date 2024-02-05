@@ -1,0 +1,38 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #F1C44D;
+
+}
+.button {
+    /* Ejemplo de estilo: botón con borde redondeado */
+    -fx-background-radius: 45;
+}
+.menos {
+    /* Ejemplo de estilo: botón con borde redondeado */
+
+   -fx-background-color: #5FDAFA;
+}
+.igual{
+   
+   -fx-background-color: #EA5FFA;
+}
+.punto{
+	   -fx-background-radius: 90;
+   -fx-background-color: #E9F553;
+}
+.mas{
+	   -fx-background-radius: 10;
+   -fx-background-color: #80F3C4;
+   -fx-font-weight: bold;
+  -fx-text-fill: #FF0000; 
+}
+.multi{
+	   -fx-background-radius: 90;
+   -fx-background-color: #F55370;
+   -fx-font-weight: bold;
+  -fx-text-fill: #FF0000; 
+}
+.divi{
+	   -fx-background-radius: 10;
+   -fx-background-color: #AB53F5;
+}

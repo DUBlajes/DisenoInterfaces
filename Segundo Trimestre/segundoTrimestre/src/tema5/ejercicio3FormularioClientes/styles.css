@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* Agrega estilos específicos para el nodo raíz (root) aquí */
+.dialog-pane {
+    /* Ejemplo de estilo: fondo gris claro */
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+    /* Ejemplo de estilo: texto en negrita */
+    -fx-font-weight: bold;
+     -fx-text-fill: #20e354; /* Color del texto */
+}
+.root {
+-fx-background-color: #111;
+
+
+}
+.button {
+    /* Ejemplo de estilo: botón con borde redondeado */
+    -fx-background-radius: 25;
+}

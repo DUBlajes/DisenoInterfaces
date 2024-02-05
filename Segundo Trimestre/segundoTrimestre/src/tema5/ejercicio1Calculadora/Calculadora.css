@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #F1C44D;
+
+}
+.button {
+    /* Ejemplo de estilo: botón con borde redondeado */
+    -fx-background-radius: 25;
+}
+.operar {
+    /* Ejemplo de estilo: botón con borde redondeado */
+   -fx-background-radius: 25;
+   -fx-background-color: #5FDAFA;
+}
+.igual{
+    -fx-background-radius: 25;
+   -fx-background-color: #EA5FFA;
+}
+.punto{
+	 -fx-background-radius: 25;
+   -fx-background-color: #80F3C4;
+}

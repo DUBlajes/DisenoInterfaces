@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.41304347826086957" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="400.0">
+         <children>
+            <MenuBar layoutY="6.0" prefHeight="30.0" prefWidth="600.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Inicio">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Preferencias">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Ayuda">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label layoutX="14.0" layoutY="70.0" prefHeight="47.0" prefWidth="224.0" text="Nuevo Videojuego" textFill="#238364">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="135.0" text="Nombre" />
+            <TextField layoutX="81.0" layoutY="131.0" />
+            <Label layoutX="14.0" layoutY="172.0" text="Precio" />
+            <TextField layoutX="81.0" layoutY="168.0" />
+            <Label layoutX="15.0" layoutY="215.0" text="Consola" />
+            <Label layoutX="15.0" layoutY="248.0" text="PEGI" />
+            <ChoiceBox layoutX="81.0" layoutY="211.0" prefWidth="150.0" />
+            <ChoiceBox layoutX="81.0" layoutY="244.0" prefWidth="150.0" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="324.0">
+         <children>
+            <Label layoutX="102.0" layoutY="49.0" text="Videojuegos" textFill="#2230c9">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <TableView layoutX="21.0" layoutY="124.0" prefHeight="245.0" prefWidth="305.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="Nombre" />
+                <TableColumn prefWidth="75.0" text="Precio" />
+                  <TableColumn prefWidth="75.0" text="Consola" />
+                  <TableColumn prefWidth="75.0" text="PEGI" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

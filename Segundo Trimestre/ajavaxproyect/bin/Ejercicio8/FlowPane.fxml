@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane orientation="VERTICAL" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" text="Boton1" />
+      <Button mnemonicParsing="false" text="Boton2" />
+      <Button mnemonicParsing="false" text="Boton3" />
+      <Button mnemonicParsing="false" text="Boton4" />
+      <Button mnemonicParsing="false" text="Boton5" />
+      <Button mnemonicParsing="false" text="Boton6" />
+      <Button mnemonicParsing="false" text="Boton7" />
+      <Button mnemonicParsing="false" text="Boton8" />
+   </children>
+</FlowPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity"
+ minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+  xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+  fx:controller="Tema6Ejercicio13Controles.SimpleController"  >
+   <children>
+      <ImageView fitHeight="71.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Imágenes/logo%20federeacion.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="154.0" text="FORMULARIO DE CLIENTES" textFill="#760a7c">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="118.0" layoutY="71.0" mnemonicParsing="false" text="Televisión" />
+      <CheckBox layoutX="320.0" layoutY="71.0" mnemonicParsing="false" text="Wifi" />
+      <CheckBox layoutX="218.0" layoutY="71.0" mnemonicParsing="false" text="Telefonia" />
+      <ColorPicker layoutX="448.0" layoutY="325.0" />
+      <Label layoutX="465.0" layoutY="298.0" text="Color aplicación" textFill="#0b167a">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="116.0" layoutY="127.0" prefWidth="150.0" />
+      <Label layoutX="118.0" layoutY="101.0" text="Forma de pago" textFill="#0b167a">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="14.0" layoutY="325.0" />
+      <Label layoutX="21.0" layoutY="298.0" text="Fecha nacimiento" textFill="#0b167a">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="254.0" layoutY="326.0" text="https://www.google.es/" />
+      <ComboBox fx:id="comboBox1" layoutX="354.0" layoutY="127.0" prefWidth="150.0" value="" />
+      <Label layoutX="354.0" layoutY="101.0" text="Otros Servicios" textFill="#0b167a">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="119.0" layoutY="192.0" mnemonicParsing="false" text="Particular" />
+      <RadioButton layoutX="254.0" layoutY="192.0" mnemonicParsing="false" text="Empresa" />
+   </children>
+</Pane>

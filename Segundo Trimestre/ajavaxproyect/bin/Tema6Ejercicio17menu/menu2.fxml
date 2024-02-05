@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tema6Ejercicio17menu.SimpleController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem id="openItem" fx:id="openItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Open" />
+                        <MenuItem id="saveItem" fx:id="saveItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Save" />
+                 		<MenuItem id="saveAsItem" fx:id="openItem2" mnemonicParsing="false" onAction="#handleMenuAction" text="Save as" />
+                 		<MenuItem id="undoItem" fx:id="undoItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Undo" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                  <MenuItem fx:id="cutItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Cut" />
+                        <MenuItem fx:id="copyItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Copy" />
+                        <MenuItem fx:id="pasteItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Paste" />
+                    </items>
+                </Menu>
+            <Menu mnemonicParsing="false" text="Zoom">
+               <items>
+                	  <MenuItem id="zoominItem" fx:id="pasteItem1" mnemonicParsing="false" onAction="#handleMenuAction" text="Zoom in" />
+                 	  <MenuItem id="zoomoutItem" fx:id="pasteItem11" mnemonicParsing="false" onAction="#handleMenuAction" text="Zoom out" />
+               </items>
+            </Menu>
+                <Menu mnemonicParsing="false" text="Help" />
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>

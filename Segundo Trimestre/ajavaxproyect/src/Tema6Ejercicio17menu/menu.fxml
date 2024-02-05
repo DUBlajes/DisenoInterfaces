@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" 
+xmlns="http://javafx.com/javafx/17" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="Tema6Ejercicio17menu.SimpleController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="openItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Open"/>
+                        <MenuItem fx:id="saveItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Save"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem fx:id="copyItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Copy"/>
+                        <MenuItem fx:id="pasteItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Paste"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help"/>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
+    </center>
+</BorderPane>
