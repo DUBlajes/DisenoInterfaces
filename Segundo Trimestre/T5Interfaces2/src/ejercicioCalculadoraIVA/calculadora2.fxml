@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <GridPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="ej2.Controller">
+fx:controller="ejercicioCalculadoraIVA.Controller">
 
 <Label text="Importe" />
 

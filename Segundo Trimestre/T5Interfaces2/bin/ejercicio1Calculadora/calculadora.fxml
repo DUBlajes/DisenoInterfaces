@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <GridPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="ej1.Controller">
+fx:controller="ejercicio1Calculadora.Controller">
 
 <Label text="Operador 1" />
 <Label text="Operador 2" GridPane.rowIndex="1" />
