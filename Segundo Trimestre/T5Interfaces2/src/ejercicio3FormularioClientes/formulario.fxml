@@ -16,7 +16,7 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity"
 minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
 xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="ej3.Controller" >
+fx:controller="ejercicio3FormularioClientes.Controller" >
 <children>
 <ImageView fitHeight="71.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
 <image>
